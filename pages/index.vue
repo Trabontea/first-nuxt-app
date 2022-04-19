@@ -6,6 +6,7 @@
       <h1>Hello i'm first vue/Nuxt app</h1>
       <!-- <a href="/users">Users</a> -->
       <nuxt-link to="/users">Users</nuxt-link>
+      <nuxt-link to="/products">Products</nuxt-link>
     </div>
   </section>
 </template>
