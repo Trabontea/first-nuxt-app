@@ -1,5 +1,6 @@
 <template>
   <section>
+    <Hero />
     <div
       class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0"
     >
@@ -13,8 +14,16 @@
 
 <script lang="ts">
 import Vue from "vue";
+import Hero from "~/components/Hero.vue";
 
 export default Vue.extend({
+  components: {
+    Hero,
+  },
   name: "IndexPage",
+  layout: "default",
 });
 </script>
+<style scoped>
+
+</style>
